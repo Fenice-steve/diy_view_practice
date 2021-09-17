@@ -89,10 +89,10 @@ class MainActivity : AppCompatActivity() {
         /**
          * ProvinceView
          */
-        val animator = ObjectAnimator.ofObject(view, "province", ProvinceEvaluator(), "澳门特别行政区")
-        animator.startDelay = 1000
-        animator.duration = 10000
-        animator.start()
+//        val animator = ObjectAnimator.ofObject(view, "province", ProvinceEvaluator(), "澳门特别行政区")
+//        animator.startDelay = 1000
+//        animator.duration = 10000
+//        animator.start()
 
     }
 
