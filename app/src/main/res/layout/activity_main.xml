@@ -37,9 +37,15 @@
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"/>-->
 
-    <com.rengwuxian.con.custom_view_bitmapAndDrawable.DrawableView
-        android:id="@+id/view"
-        android:layout_width="200dp"
-        android:layout_height="200dp"/>
+<!--    <com.rengwuxian.con.custom_view_bitmapAndDrawable.DrawableView-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"/>-->
+
+    <com.rengwuxian.con.custom_view_materialEditText.MaterialEditText
+        app:useFloatingLabel="true"
+        android:hint="UUUUUU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
